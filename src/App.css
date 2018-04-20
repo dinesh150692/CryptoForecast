@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #673ab7;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.margin{
+  margin-top: 20px;
+}
+
+.loadingSpinner{
+  border: 2px solid #673ab7;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-left-color: rgba(0, 0, 0, 0);
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  border-radius: 50%;
+  display: inline-flex;
+  animation: loadingSpinner 0.7s infinite linear;
+}
+  
+  
+@keyframes loadingSpinner {
+  from { transform: rotate(0deg)   }
+  to   { transform: rotate(360deg) }
+}
+  
+@-webkit-keyframes loadingSpinner {
+  from { -webkit-transform: rotate(0deg)   }
+  to   { -webkit-transform: rotate(360deg) }
+}
+
+.loadingSpinnerMargin{
+  margin-left: 42% !important;
+}
+
+.flexiContainer{
+  align-self: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.label{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.margintop{
+  margin: 10px 0px;
+}
+.selectpicker{
+  display: inline-block;
+  width: 200px;
+  background-color: #FBFBFB;
+  border-width: 1px;
+  border-radius: 2%;
+  border-style: solid;
+  border-color: #673ab7;
+  border-image: initial;
+  height: 40px;
+  outline-color: rgba(103, 58, 183, 0.4);
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+.flexiItem{
+  display: block;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 5% 5%;
+}
+
+
+.buttonContainer{
+  margin: 3% 100px;    
+}
+
+.button{
+  width: 200px;
+  border: 1px solid #673ab7;
+  height: 50px;
+  font-size: 20px;
+  background: #673ab7;
+  color: white;
+  font-family: sans-serif;
+}
+
+.error{
+  color: red;
+}
+
+.tableContainer{
+  text-align: center;
+  display: inline-flex;
+}
+
+table{
+  border-collapse: collapse;
+}
+tbody td{
+  width: 150px;
+  height: 40px;
+  text-align: left;
+  color: grey;
+  border: 1px solid lightgray;
+}
+thead td{
+  width: 150px;
+  height: 40px;
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid lightgray;
+}
